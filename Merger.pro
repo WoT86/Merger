@@ -14,9 +14,15 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    imagemerger.cpp
+    imagemerger.cpp \
+    imageview.cpp \
+    imageviewscene.cpp \
+    mergeoffsetview.cpp
 
 HEADERS  += mainwindow.h \
-    imagemerger.h
+    imagemerger.h \
+    imageview.h \
+    imageviewscene.h \
+    mergeoffsetview.h
 
 FORMS    += mainwindow.ui
